@@ -22,11 +22,13 @@ WriteMakefile(
      	'Carp::Heavy'		=> 0,
       	'Data::Dumper'		=> 2.00,
     	'Scalar::Util'		=> 1.35,
+    	'File::Spec'		=> 0,
 
     	'Banal::DateTime'   => 0.02,
         'Banal::Utils'      => 0.05,
         
         'Config::General'   => 2.56,
+        'Moose' 			=> 2.00,
        
     },
     dist  => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },

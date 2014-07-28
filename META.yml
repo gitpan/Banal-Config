@@ -24,6 +24,8 @@ requires:
   Carp::Heavy: 0
   Config::General: 2.56
   Data::Dumper: 2
+  File::Spec: 0
+  Moose: 2
   Scalar::Util: 1.35
   perl: 5.006
-version: 0.10
+version: 0.11
